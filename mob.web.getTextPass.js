@@ -1,5 +1,4 @@
 mob.init();
-mob.setTimeout(6000);
 mob.open("wikipedia.org");
 const text = mob.getText('#js-link-box-en > strong');
 log.info(text);

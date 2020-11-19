@@ -1,5 +1,4 @@
 mob.init();
-mob.setTimeout(6000);
 mob.open("https://www.wikipedia.org/");
 const element = mob.findElement("#js-link-box-en");
 element.click();

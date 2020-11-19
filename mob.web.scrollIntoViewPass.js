@@ -1,5 +1,4 @@
 mob.init();
-mob.setTimeout(6000);
 mob.open("https://www.wikipedia.org/");
 mob.pause(5000);
 mob.scrollIntoView('#www-wikipedia-org > p', true);
